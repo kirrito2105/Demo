@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*Thiết lập font chữ cho website*/
+    font-family: 'Times New Roman', Times;
+    text-rendering: optimizeLegibility;
+}
+
+/*CSS cho header*/
+header {
+    height: 100px;
+    background: red;
+}  
+
+article {
+    padding: 5px 5px;  
+    width: 400px;
+}
+
+article a {
+    float: left;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 400px 1px auto;
+    grid-column-gap: 25px;
+}
+
+.left {
+    display: grid;
+}
+
+.mid {
+    width: auto;
+    height: auto;
+    background-color: #e5e5e5;
+}
+
+.right {
+    width: auto;
+    height: auto;
+    background-color: yellow;
+}
+
+.left .item-1 {
+    grid-area: 1;
+}
+
+
+.left .item-2 {
+    grid-area: 2;
+}
+
+.left .item-3 {
+    grid-area: 3;
+}
+
+.left .item-4 {
+    grid-area: 4;
+}
+
+.left .item-5 {
+    grid-area: 5;
+}
+
+.left .item-6 {
+    grid-area: 6;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.item-news-common {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
